@@ -1,18 +1,62 @@
 html {
+    background-color: #00abda;
     font-size: 16px;
     font-family: Roboto, sans-serif;
 }
 
-p {
-    color: rebeccapurple;
-    width: 80%;
-    border: 1px solid black
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 0 20px 20px 20px;
+        /* Cria um espaço em branco no final da página para o botão flutuar sem cobrir nada */
+        padding-bottom: 100px;
+    
 }
 
-p,
-li,
 h1 {
-    color: rgb(0, 0, 0);
+    margin : 0;
+    padding: 20px 0;
+    color: #00abda;
+    text-shadow: 3px 3px 1px #333;
+    text-align: center;
+}
+    
+.Cadastrar_Usuário {
+    text-align: center;
+    margin: 0 auto;
+    color : #00abda;
+}
+
+.Nome { 
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    padding: 16px 28px;
+    font-size: 14px;
+    font-weight: 400;
+
+    border-radius: 10px;
+    border: none;
+
+    background-color: #007bff; /* Cor de fundo azul */
+    color: #ffffff;            /* Cor do texto branca */
+    cursor: pointer;           /* Transforma a seta do mouse na "mãozinha" de clique */
+}
+
+
+
+p {
+    
+    width: 80%;
+  
+}
+
+
+h1 {
+    color: rgb(81, 164, 219);
 }
 
 p,
